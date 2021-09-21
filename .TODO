@@ -1,0 +1,15 @@
+you can create react app it and make a super simple login logout signup with mongodb express httponly cookies
+
+
+- so redis holds the token for the given amount of time and once the token expires it expires from redis
+so instead of me adding tokens to the database it keeps track of itself
+
+- on redis u save the refresh token with the same max life you gave it when you assigned it
+- same the refresh token and the max life of it should match the max life given to the refresh token
+
+Signup
+Login
+Jwt tokens
+Refreshing tokens
+Mongodb for users data
+Redis for tokens
